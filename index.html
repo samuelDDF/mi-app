@@ -18,9 +18,36 @@
     </style>
 </head>
 <body>
-
     <h1>Bienvenido</h1>
+    <h2>Formulario de ingreso</h2>
     
+    <form>
+        <label for="nombre">Nombre completo:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required>
+    </form>
+    <form>
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" required>
+    </form>
+    <forml>
+        <label for="pais">País:</label>
+        <select id="pais" name="pais" required>
+            <option value="">Seleccione...</option>
+            <option value="co">Colombia</option>
+            <option value="mx">México</option>
+            <option value="es">España</option>
+            <option value="ar">Argentina</option>
+        </select>
+
+        
+        <button type="submit">Registrarse</button>
+    </form>
+    <h2></h2>Añada un mensaje:
+    <form>
+        <label for=""></label>
+        <input type="text">
+        <button type="submit">Enviar</button>
+    </form>
 
 </body>
 </html>
